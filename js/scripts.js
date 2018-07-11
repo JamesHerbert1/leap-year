@@ -17,7 +17,6 @@ $(document).ready(function() {
         var intYear = parseInt(year)
         var result = leapYear(intYear);
         $(".year").text(year);
-        
         if (!result) {                 // same as writing if (result === false)
             $(".not").text("not");
           } else {
